@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolOpenDays.Android", "SchoolOpenDays\SchoolOpenDays.Android\SchoolOpenDays.Android.csproj", "{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolOpenDays", "SchoolOpenDays\SchoolOpenDays\SchoolOpenDays.csproj", "{644F5F9D-F55B-4246-9776-C1683993CB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E5EBC5-0C75-4997-A070-EBFA65F868AB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{644F5F9D-F55B-4246-9776-C1683993CB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644F5F9D-F55B-4246-9776-C1683993CB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644F5F9D-F55B-4246-9776-C1683993CB18}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{644F5F9D-F55B-4246-9776-C1683993CB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644F5F9D-F55B-4246-9776-C1683993CB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644F5F9D-F55B-4246-9776-C1683993CB18}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A4ACBB-74F0-4C3C-9BDF-16DE8B6A79E8}
+	EndGlobalSection
+EndGlobal
