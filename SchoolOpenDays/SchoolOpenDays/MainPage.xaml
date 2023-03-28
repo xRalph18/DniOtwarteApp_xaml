@@ -5,6 +5,9 @@
 
     <StackLayout>
         <Label Text="Jednostki Policyjne UK"/>
+        <ListView>
+
+        </ListView>
     </StackLayout>
 
 </ContentPage>

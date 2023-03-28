@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using SchoolOpenDays.ApiConnection;
+using SchoolOpenDays.Models;
 
 namespace SchoolOpenDays
 {
@@ -14,6 +15,8 @@ namespace SchoolOpenDays
         public MainPage()
         {
             InitializeComponent();
+
+            List<ForcesModel> forces = Forces.GetForces();
         }
     }
 }

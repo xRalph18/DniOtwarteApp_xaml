@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using SchoolOpenDays.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -9,7 +10,7 @@ namespace SchoolOpenDays.ApiConnection
 {
     class Forces
     {
-        public static List<Forces> GetForces()
+        public static List<ForcesModel> GetForces()
         {
             HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format("https://data.police.uk/api/forces"));
 
@@ -27,7 +28,7 @@ namespace SchoolOpenDays.ApiConnection
                 jsonString = reader.ReadToEnd();
             }
 
-            List<Forces> forces = JsonConvert.DeserializeObject<List<Forces>>(jsonString);
+            List<ForcesModel> forces = JsonConvert.DeserializeObject<List<ForcesModel>>(jsonString);
 
             return forces;
         }
