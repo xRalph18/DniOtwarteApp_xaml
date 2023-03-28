@@ -17,6 +17,7 @@ namespace SchoolOpenDays
             InitializeComponent();
 
             List<ForcesModel> forces = Forces.GetForces();
+            listView.ItemsSource = forces;
         }
     }
 }

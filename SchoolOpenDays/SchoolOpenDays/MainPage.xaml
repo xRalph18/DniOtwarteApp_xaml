@@ -4,9 +4,17 @@
              x:Class="SchoolOpenDays.MainPage">
 
     <StackLayout>
-        <Label Text="Jednostki Policyjne UK"/>
-        <ListView>
-
+        <Label Text="Jednostki Policyjne UK" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Padding="25 0"/>
+        <ListView x:Name="listView" HasUnevenRows="true" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding name}" FontSize="16" TextColor="Black" Padding="10"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
     </StackLayout>
 
