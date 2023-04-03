@@ -15,14 +15,15 @@ Jednostki są wyświetlane są w postaci listy z detalami w kolejności:
   <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte1.jpg" alt="AppScreen1" style="height: 500px;"/>
   <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte2.jpg" alt="AppScreen2" style="height: 500px;"/>
   <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte3.jpg" alt="AppScreen3" style="height: 500px;"/>
+  <h6><i>Znaczniki html są przesyłane jako wynik z API</i></h6>
 </div>
 
 <br>
 
 <div style="display: inline-block;" align="center">
   <h2>Dodany searchbar</h2>
-  
   <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte4.jpg" alt="AppScreen4" style="height: 500px;"/>
   <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte5.jpg" alt="AppScreen5" style="height: 500px;"/>
   <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte6.jpg" alt="AppScreen6" style="height: 500px;"/>
+  <h6><i>Znaczniki html są przesyłane jako wynik z API</i></h6>
 </div>
