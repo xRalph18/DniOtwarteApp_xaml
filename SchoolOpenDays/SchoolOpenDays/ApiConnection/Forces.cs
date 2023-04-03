@@ -33,6 +33,29 @@ namespace SchoolOpenDays.ApiConnection
             return forces;
         }
 
+        public static ForceDetailModel GetForceDetail(string forceId)
+        {
+            HttpWebRequest WebReq = (HttpWebRequest)WebRequest.Create(string.Format($"https://data.police.uk/api/forces/{forceId}"));
+
+            WebReq.Method = "GET";
+
+            HttpWebResponse WebResp = (HttpWebResponse)WebReq.GetResponse();
+
+            Console.WriteLine(WebResp.StatusCode);
+            Console.WriteLine(WebResp.Server);
+
+            string jsonString;
+            using (Stream stream = WebResp.GetResponseStream())
+            {
+                StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8);
+                jsonString = reader.ReadToEnd();
+            }
+
+            ForceDetailModel forceDetail = JsonConvert.DeserializeObject<ForceDetailModel>(jsonString);
+
+            return forceDetail;
+        }
+
 
     }
 }
