@@ -86,15 +86,13 @@ public static ForceDetailModel GetForceDetail(string forceId)
 
 <br>
 
-## Kod odpowiadający za wyszukiwanie
+### Kod odpowiadający za wyszukiwanie
 ```cs
 private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
 {
   listView.ItemsSource = ForcesList.Where(s => s.name.ToLower().Replace(" ", "").Contains(e.NewTextValue.ToLower().Replace(" ", "")));
 }
 ```
-
-<br>
 
 ### Przykładowe dane zwracane przez API
 ```json
