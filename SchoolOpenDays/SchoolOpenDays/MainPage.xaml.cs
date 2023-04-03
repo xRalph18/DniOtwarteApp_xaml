@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using SchoolOpenDays.ApiConnection;
 using SchoolOpenDays.Models;
+using System.Windows.Input;
+using Xamarin.Essentials;
 
 namespace SchoolOpenDays
 {
@@ -17,16 +19,14 @@ namespace SchoolOpenDays
             InitializeComponent();
 
             List<ForcesModel> forces = Forces.GetForces();
-            ForceDetailModel forceDetail = Forces.GetForceDetail("avon-and-somerset");
+            List<ForceDetailModel> detailedForces = new List<ForceDetailModel>();
 
-            List<ForceDetailModel> lista = new List<ForceDetailModel>();
             foreach (var item in forces)
             {
-                lista.Add(Forces.GetForceDetail($"{item.id}"));
+                detailedForces.Add(Forces.GetForceDetail($"{item.id}"));
             }
 
-
-            listView.ItemsSource = lista;
+            listView.ItemsSource = detailedForces;
         }
     }
 }

@@ -5,12 +5,20 @@
 
     <StackLayout>
         <Label Text="Jednostki Policyjne UK" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Padding="25"/>
-        <ListView x:Name="listView" HasUnevenRows="true" >
+        <ListView x:Name="listView" HasUnevenRows="true" SeparatorColor="#bbb">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell IsEnabled="False">
                         <StackLayout Orientation="Vertical">
-                            <Label Text="{Binding name}" FontSize="16" TextColor="Black" Padding="10"/>
+                            <Label Text="{Binding name}" FontSize="16" TextColor="Black" Padding="10" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Label Text="{Binding url}" FontSize="14" Padding="0 10 0 0" IsEnabled="True" TextColor="#0000EE" TextDecorations="Underline">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding GoToUrl}" CommandParameter="{Binding url}"/>
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                <Label Text="{Binding telephone, StringFormat='tel: {0}'}" FontSize="14" Padding="0 0 0 10" TextColor="black"/>
+                            </StackLayout>
                             <Label Text="{Binding description}" FontSize="14" Padding="10"/>
                         </StackLayout>
                     </ViewCell>
