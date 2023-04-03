@@ -96,7 +96,7 @@ private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
 
 <br>
 
-## Dane zwracane przez API
+### Przykładowe dane zwracane przez API
 ```json
 {
     "description":null,
