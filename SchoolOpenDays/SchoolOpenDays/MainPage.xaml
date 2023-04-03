@@ -4,6 +4,7 @@
              x:Class="SchoolOpenDays.MainPage">
 
     <StackLayout>
+        <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Szukaj..."/>
         <Label Text="Jednostki Policyjne UK" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Padding="25"/>
         <ListView x:Name="listView" HasUnevenRows="true" SeparatorColor="#bbb">
             <ListView.ItemTemplate>
