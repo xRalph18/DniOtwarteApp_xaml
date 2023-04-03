@@ -18,8 +18,15 @@ namespace SchoolOpenDays
 
             List<ForcesModel> forces = Forces.GetForces();
             ForceDetailModel forceDetail = Forces.GetForceDetail("avon-and-somerset");
-            test.Text = forceDetail.url;
-            listView.ItemsSource = forces;
+
+            List<ForceDetailModel> lista = new List<ForceDetailModel>();
+            foreach (var item in forces)
+            {
+                lista.Add(Forces.GetForceDetail($"{item.id}"));
+            }
+
+
+            listView.ItemsSource = lista;
         }
     }
 }

@@ -5,13 +5,13 @@
 
     <StackLayout>
         <Label Text="Jednostki Policyjne UK" FontSize="25" HorizontalTextAlignment="Center" TextColor="Black" FontAttributes="Bold" Padding="25"/>
-        <Label x:Name="test"/>
         <ListView x:Name="listView" HasUnevenRows="true" >
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <ViewCell>
+                    <ViewCell IsEnabled="False">
                         <StackLayout Orientation="Vertical">
                             <Label Text="{Binding name}" FontSize="16" TextColor="Black" Padding="10"/>
+                            <Label Text="{Binding description}" FontSize="14" Padding="10"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
