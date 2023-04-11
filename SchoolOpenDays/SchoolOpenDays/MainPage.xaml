@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SchoolOpenDays.MainPage">
+             x:Class="SchoolOpenDays.MainPage"
+             BackgroundImageSource="">
 
     <StackLayout>
         <SearchBar TextChanged="SearchBar_TextChanged" Placeholder="Szukaj..."/>
@@ -17,6 +18,7 @@
                                 <Label Text="{Binding telephone, StringFormat='tel: {0}'}" FontSize="14" Padding="10, 0, 0, 0" TextColor="black"/>
                             </StackLayout>
                             <Label Text="{Binding description}" FontSize="14" Padding="10"/>
+                            <Label Text="{Binding engagment_methods}"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
