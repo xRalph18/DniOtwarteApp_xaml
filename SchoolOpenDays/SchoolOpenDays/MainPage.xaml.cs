@@ -25,7 +25,7 @@ namespace SchoolOpenDays
 
             foreach (var item in forces)
             {
-                ForcesList.Add(Forces.GetForceDetail($"{item.id}"));
+                ForcesList.Add(Forces.GetForceDetail(item.id));
             }
 
             listView.ItemsSource = ForcesList;
