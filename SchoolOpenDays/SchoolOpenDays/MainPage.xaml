@@ -18,7 +18,6 @@
                                 <Label Text="{Binding telephone, StringFormat='tel: {0}'}" FontSize="14" Padding="10, 0, 0, 0" TextColor="black"/>
                             </StackLayout>
                             <Label Text="{Binding description}" FontSize="14" Padding="10"/>
-                            <Label Text="{Binding engagment_methods}"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
