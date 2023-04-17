@@ -123,4 +123,5 @@ private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
 ```
 
 Autor: Rafał Machnik
+  
 Discord: Ralph18#1525
