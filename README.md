@@ -12,9 +12,16 @@ Jednostki są wyświetlane są w postaci listy z detalami w kolejności:
 
 <div style="display: inline-block;" align="center">
   <h2>Screeny</h2>
-  <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte1.jpg" alt="AppScreen1" style="height: 500px;"/>
-  <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte2.jpg" alt="AppScreen2" style="height: 500px;"/>
-  <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte3.jpg" alt="AppScreen3" style="height: 500px;"/>
+  <table>
+      <tr>
+          <th colspan="3">Screeny danych w różnych miejscach listy przed search barem</th>
+      </tr>
+      <tr>
+          <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte1.jpg" alt="AppScreen1" style="height: 500px;"/></th>
+          <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte2.jpg" alt="AppScreen2" style="height: 500px;"/></th>
+          <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte3.jpg" alt="AppScreen3" style="height: 500px;"/></th>
+      </tr>
+  </table>
   <h6><i>Znaczniki html są przesyłane jako wynik z API</i></h6>
 </div>
 
@@ -22,9 +29,17 @@ Jednostki są wyświetlane są w postaci listy z detalami w kolejności:
 
 <div style="display: inline-block;" align="center">
   <h2>Dodany searchbar</h2>
-  <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte4.jpg" alt="AppScreen4" style="height: 500px;"/>
-  <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte5.jpg" alt="AppScreen5" style="height: 500px;"/>
-  <img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte6.jpg" alt="AppScreen6" style="height: 500px;"/>
+  <table>
+      <tr>
+          <th>Dodany search bar</th>
+          <th colspan="2">Działanie search bara</th>
+      </tr>
+      <tr>
+          <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte4.jpg" alt="AppScreen4" style="height: 500px;"/></th>
+          <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte5.jpg" alt="AppScreen5" style="height: 500px;"/></th>
+          <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte6.jpg" alt="AppScreen6" style="height: 500px;"/></th>
+      </tr>
+  </table>
   <h6><i>Znaczniki html są przesyłane jako wynik z API</i></h6>
 </div>
 
