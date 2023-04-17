@@ -121,3 +121,6 @@ private void SearchBar_TextChanged(object sender, TextChangedEventArgs e)
     "name":"Leicestershire Police"
 }
 ```
+
+Autor: Rafał Machnik
+Discord: Ralph18#1525
