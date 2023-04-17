@@ -1,20 +1,18 @@
-# Aplikacja w XAMARIN
+# Siły Policyjne Wielkiej Brytanii
 
-Aplikacja przedstawia listę różnych sił policyjnych w UK z użyciem [Police API](https://data.police.uk/docs/).
-
-Jednostki są wyświetlane są w postaci listy z detalami w kolejności:
+Aplikacja przedstawia informacje na temat różnych formacji policji Wielkiej Brytanii. Dane dotyczące tych formacji są pobierane z restful API [Police API](https://data.police.uk/docs/) i zawierają informacje takie jak:
  - Nazwa jednoski
  - Strona internetowa jednostki
  - Numer telefonu
- - Oraz opis jeśli takowy istnieje
+ - Opis jeśli takowy istnieje
  
  <br>
 
 <div style="display: inline-block;" align="center">
-  <h2>Screeny</h2>
+  <h2>Zrzuty ekranu</h2>
   <table>
       <tr>
-          <th colspan="3">Screeny danych w różnych miejscach listy przed search barem</th>
+          <th colspan="3">Widok danych w różnych miejscach listy przed dodaniem pola wyszukiwania</th>
       </tr>
       <tr>
           <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte1.jpg" alt="AppScreen1" style="height: 500px;"/></th>
@@ -28,12 +26,8 @@ Jednostki są wyświetlane są w postaci listy z detalami w kolejności:
 <br>
 
 <div style="display: inline-block;" align="center">
-  <h2>Dodany searchbar</h2>
+  <h2>Widok aplikacji z wprowadzonym polem wyszukiwania</h2>
   <table>
-      <tr>
-          <th>Dodany search bar</th>
-          <th colspan="2">Działanie search bara</th>
-      </tr>
       <tr>
           <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte4.jpg" alt="AppScreen4" style="height: 500px;"/></th>
           <th><img src="https://github.com/xRalph18/DniOtwarteApp_xaml/blob/main/screens/DniOtwarte5.jpg" alt="AppScreen5" style="height: 500px;"/></th>
