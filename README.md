@@ -1,6 +1,6 @@
 # Siły Policyjne Wielkiej Brytanii
 
-Aplikacja przedstawia informacje na temat różnych formacji policji Wielkiej Brytanii. Dane dotyczące tych formacji są pobierane z restful API [Police API](https://data.police.uk/docs/) i zawierają informacje takie jak:
+Aplikacja przedstawia informacje na temat różnych formacji policji Wielkiej Brytanii. Dane dotyczące tych formacji są pobierane z restful API https://data.police.uk/docs/ i zawierają informacje takie jak:
  - Nazwa jednoski
  - Strona internetowa jednostki
  - Numer telefonu
